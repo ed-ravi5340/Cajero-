@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    background-color: rgb(24, 180, 125);
+}
+
+/* Style for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: #fff;
+    padding: 10px 20px;
+    height: 70px;
+}
+
+/* Style for the logo */
+.logo img {
+    max-width: 150px;
+    height: 93px;
+    background-color: #fff;
+}
+
+/* Style for the clock */
+.clock {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    
+}
+
+#clockDisplay {
+    background-color: white;
+}
+
+
+.bienvenida {
+    display: flex;
+    padding-top: 20px;
+    padding: 50px;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Estilos para el recuadro de inicio de sesión */
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+
+
+/* Estilos para los campos de entrada y el botón */
+.input-container {
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;    
+}
+
+#loginForm {
+    background-color: #fff;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    background-color: #fff;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-left: 63px;
+    display: block;
+}
+
+input[type="password"] {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-left: 40px;  
+     
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
